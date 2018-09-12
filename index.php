@@ -1,0 +1,111 @@
+
+
+    <header>
+
+        <script src="https://use.typekit.net/fvl1rpg.js"></script>
+        <script>
+            try{
+                Typekit.load({
+                    async: true
+                });
+            }
+            catch(e){
+
+            }
+        </script>
+        <title>RIT Senior Night</title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://friendlyu.com/css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="description" content="RIT Class of 2018 Gala">
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Register forClass of 2018 Gala" />
+        <meta property="og:image" content="https://www.rit.edu/studentaffairs/cab/senior/picnic/img/senior night_facebook banner-09.png">
+        <!-- Facebook Looks at this as the preview image when the page is shared -->
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-68179372-1', 'auto');
+            ga('send', 'pageview');
+
+
+
+        </script>
+
+
+    </header>
+
+    <div class="grad">
+        <div class="top">
+            <div class="col-lg-offset-2 col-lg-6 logos">
+                <a class="col-lg-2" href='http://www.rit.edu/studentaffairs/cab/'><img src="img/cabLogo.png"></a>
+                <a class="col-lg-1" href='http://www.rit.edu/studentaffairs/cab/about.php'><img src="img/classof2018_banner_white.png" ></a>
+
+            </div>
+            <div class="col-lg-4 nav">
+                <a href="http://www.rit.edu/studentaffairs/cab/2018/gala/index.php" class="col-lg-2" style="color: #d6ba43;">Gala</a>
+                <a  href="http://www.rit.edu/studentaffairs/cab/2018/gala/faq.php" class="col-lg-2">FAQ</a>
+                <a href="http://www.rit.edu/studentaffairs/cab/2018/gala/registration.php" ><button class="col-lg-3 btn btn-picnic btn-m text-center">Sign Up</button></a>
+            </div>
+        </div>
+        <div class="header row">
+            <div class="title container text-center">
+                <h2 style="font-size: 40pt;">Class of 2018</h2>
+                <h1 style="font-size: 100pt;">GALA</h1>
+                <h2 style="font-size: 40pt;">Nov. 17 2017</h2>
+            </div>
+            <div class="container">
+                <div class="row" id="main">
+                    <div class="col-lg-offset-1 col-lg-10 about">
+                        <div class="container">
+                            <div class='col-lg-9 text-center info'>
+                                <h2>About</h2>
+                                <p>Come out and enjoy a formal night to celebrate your accomplishments with your fellow classmates. Create a few last memories over food, drinks, and entertainment! Sign up and don't miss out on this unforgettable event! This is a formal event so students are encouraged to dress up. A cash-only bar will be available to those with a proper ID. Transportation will be available with a student ID at Gleason Circle starting at 6:00pm and lasting all night.Tickets are $10 for RIT seniors and $15 for guests. For more information, please see the FAQ page. If you have any additional questions, feel free to stop by the CAB office at 03-A740 or email cab.rit.edu.</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="row venue">
+                   <div class="col-lg-offset-4 col-lg-4 text-center">
+                       <h2 style="color: black;">Location</h2>
+                       <a  href='http://www.wintergardenbymonroes.com/'><img src="img/venuelogo.png"></a>
+                   </div>
+                    <div class="col-lg-12" style="margin-bottom: 2%"><img src="img/gallery_1.png" style="border-radius: 5px;" class="img-responsive rounded"></div>
+                    <div class="row">
+                        <div class="rounded col-md-4"><img src="img/gallery_2.png" style="border-radius: 5px;" class="img-responsive rounded"></div>
+                        <div class="rounded col-md-4"><img src="img/gallery_3.png" style="border-radius: 5px;"class="img-responsive rounded"></div>
+                        <div class="rounded col-md-4"><img src="img/gallery_4.jpg" style="border-radius: 5px;" class="img-responsive rounded"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="col-lg-9 logos">
+                    <a class="col-lg-1" href='http://www.rit.edu/studentaffairs/cab/'><img src="img/cabLogo.png"></a>
+                    <a class="col-lg-2" href='http://www.rit.edu/studentaffairs/cab/about.php'><img src="img/classof2018_banner_white.png" ></a>
+                    <a  href='https://twitter.com/ritcab'><img src="img/twitter.png"></a>
+                    <a  href='https://www.instagram.com/ritcab/'><img src="img/insta.png"></a>
+                    <a  href='https://www.facebook.com/ritcab/'><img src="img/fb.png"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+

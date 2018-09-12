@@ -1,0 +1,165 @@
+body {
+    /* Standard syntax */
+    font-family: "Maven Pro",sans-serif;
+    background: white;
+}
+p{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.grad {
+    background: white;
+}
+
+#main {
+    color: #ccc;
+    padding-top: -30px;
+    font-family: 'Maven Pro', sans-serif;;
+    line-height: 200%;
+}
+
+.btn-picnic:active,
+.btn-picnic.active,
+.open .dropdown-toggle.btn-picnic {
+    background-image: none;
+}
+
+.btn-picnic.disabled,
+.btn-picnic[disabled],
+fieldset[disabled] .btn-picnic,
+.btn-picnic.disabled:hover,
+.btn-picnic[disabled]:hover,
+fieldset[disabled] .btn-picnic:hover,
+.btn-picnic.disabled:focus,
+.btn-picnic[disabled]:focus,
+fieldset[disabled] .btn-picnic:focus,
+.btn-picnic.disabled:active,
+.btn-picnic[disabled]:active,
+fieldset[disabled] .btn-picnic:active,
+.btn-picnic.disabled.active,
+.btn-picnic[disabled].active,
+fieldset[disabled] .btn-picnic.active {
+    background-color: #ebebeb;
+    font-family: "Maven Pro";
+}
+
+.btn-lg {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.btn-sm{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn-picnic .badge {
+    color: #ebebeb;
+    background-color: whitesmoke;
+    font-family: "Maven Pro";
+}
+
+.nopadding {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.btn-picnic:focus {
+    outline: 0;
+    font-family: "Maven Pro";
+    font-size: large;
+}
+
+.btn-picnic,
+.btn-picnic:focus,
+.btn-picnic:active,
+.btn-picnic.active,
+.open .dropdown-toggle.btn-picnic {
+    color: black;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    font-family: "Maven Pro";
+    font-weight: 700;
+}
+.btn-picnic:hover{
+    background-color: #d6ba43;
+    color: white;
+}
+
+.control-label{
+    text-align: left;
+}
+
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+.about{
+    display: block;
+    background-color: black;
+    border-radius: 8px;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+.header{
+    background-image: url("../img/hero.jpg");
+    height: 90%;
+    width: 100%
+}
+.title{
+    margin-top: 15%;
+    margin-bottom: 8%;
+    color: #d6ba43;
+}
+h3,h2,h1{
+    font-family: "capitol";
+    font-weight: 700;
+}
+h3{
+    font-size: 20pt;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: #d6ba43;
+}
+footer{
+    background-image: url("../img/hero-bottom.jpg");
+    height: 20%;
+    width: 100%;
+}
+.logos{
+    padding-top: 15px;
+    display: block;
+}
+.logos a{
+    margin-right: 30px;
+}
+
+.nav{
+    color: white;
+    padding-top: 15px;
+    display: block;
+    font-family: "Maven Pro";
+    font-size: large;
+    float: right;
+}
+.nav a{
+    color: whitesmoke;
+    margin-top: 2%;
+}
+.nav a:hover {
+    color: #d6ba43;
+    text-decoration: none;
+}
+.top{
+    display: block;
+    background: black;
+}
+.venue{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
