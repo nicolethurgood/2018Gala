@@ -1,16 +1,16 @@
 <?php 
-<!-- require_once("../../core2.php");
+require_once("../../core2.php");
 $numberOfPeople = 100;
-$dbc = mysqli_connect(getConfigValue("dbHost_w_cab"),"w-cab",getConfigValue("dbPass_w_cab"));
-mysqli_select_db($dbc, "w_cab");
+// $dbc = mysqli_connect(getConfigValue("dbHost_w_cab"),"w-cab",getConfigValue("dbPass_w_cab"));
+// mysqli_select_db($dbc, "w_cab");
 // Total number of people attending
-$guestResults = mysqli_query($dbc, "SELECT guest_firstname FROM senior_night WHERE guest_firstname IS NOT NULL AND guest_firstname > '' AND Year='2018' ORDER BY guest_firstname");
-$seniorResults = mysqli_query($dbc, "SELECT ID FROM senior_night WHERE Year='2018' ORDER BY ID");
-$numberOfPeople = mysqli_num_rows($seniorResults) + mysqli_num_rows($guestResults);
+// $guestResults = mysqli_query($dbc, "SELECT guest_firstname FROM senior_night WHERE guest_firstname IS NOT NULL AND guest_firstname > '' AND Year='2018' ORDER BY guest_firstname");
+// $seniorResults = mysqli_query($dbc, "SELECT ID FROM senior_night WHERE Year='2018' ORDER BY ID");
+// $numberOfPeople = mysqli_num_rows($seniorResults) + mysqli_num_rows($guestResults);
 
-mysqli_close($dbc);
+// mysqli_close($dbc);
 
-$time = time(); -->
+$time = time(); 
 ?>
 
     <header>
@@ -80,9 +80,9 @@ $time = time(); -->
 
             </div>
             <div class="col-lg-4 nav">
-                <a href="http://www.rit.edu/studentaffairs/cab/2018/gala/index.php" class="col-lg-2" >Gala</a>
-                <a  href="http://www.rit.edu/studentaffairs/cab/2018/gala/faq.php" class="col-lg-2">FAQ</a>
-                <a href="http://www.rit.edu/studentaffairs/cab/2018/gala/registration.php" ><button class="col-lg-3 btn btn-picnic btn-m text-center">Sign Up</button></a>
+                <a href="index.html" class="col-lg-2" style="color: #d6ba43;">Gala</a>
+                <a  href="faq.html" class="col-lg-2">FAQ</a>
+                <a href="registration.html" ><button class="col-lg-3 btn btn-picnic btn-m text-center">Sign Up</button></a>
             </div>
         </div>
         <div class="header row">
